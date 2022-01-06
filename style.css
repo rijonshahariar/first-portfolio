@@ -31,7 +31,7 @@ body{
 #top-header{
     font-size: 60px;
   margin-bottom: 0px;
-    border-left: 4px solid #2e1060;
+    border-left: 4px solid #7c76bb;
     padding-left: 15px;
    
 }
@@ -104,7 +104,7 @@ h2{
 .sec-3{
     display:flex;
     margin-bottom: 10px;
-    background-image: url(images/shapes/shape-10.png);
+    background-image: url(images/shapes/shape-12.png);
     background-repeat: no-repeat;
     background-position:right ;
 }
@@ -113,7 +113,7 @@ h2{
 .sec-4{
     display:flex;
     margin-bottom: 10px;
-    background-image: url(images/shapes/shape-11.png);
+    background-image: url(images/shapes/shape-14.png);
     background-repeat: no-repeat;
     background-position:left ;
 }
