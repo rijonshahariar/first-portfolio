@@ -13,14 +13,14 @@ body{
 
 .half-width{
     width:50%;
-    padding-left: 100px;
+    padding-left: 110px;
     
     padding-top: 50px;
 }
 
 .normal-width{
- padding-right: 100px;
-    padding-top: 100px;
+ padding-right: 110px;
+    padding-top: 50px;
 }
 
 .half-width img{
@@ -131,9 +131,10 @@ margin:auto;
 .container {
     border-radius: 5px;
     background-color: #eeeeee;
-display:flex;
-color:#2e1060;
+    display:flex;
+    color:#2e1060;
     padding: 20px;
+    margin-bottom: 50px;
   }
 
 input, textarea {
@@ -157,11 +158,10 @@ input, textarea {
         font-size: 15px;
         cursor: pointer;
  }
-
+/*footer area*/
 footer{
     display: block;
-    height:150px;
-   
+    height:150px;  
     color:white;
     background-color:rgb(12, 13, 29);
 }
