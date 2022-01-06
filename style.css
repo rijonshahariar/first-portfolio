@@ -31,8 +31,8 @@ body{
 #top-header{
     font-size: 60px;
   margin-bottom: 0px;
-    border-left: 5px solid #2e1060;
-    padding-left: 10px;
+    border-left: 4px solid #2e1060;
+    padding-left: 15px;
    
 }
 
@@ -46,7 +46,8 @@ body{
     text-decoration: none;
     color:white;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 h1{
@@ -73,22 +74,22 @@ h2{
 }
 
 .box img{
-    width: 40%;  
+    width: 20%;  
     display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 30px; 
+  margin-bottom: 10px; 
 }
 #first-box{
-    background-color: rgb(244, 238, 255);
+    background-color: rgb(244, 240, 253);
     margin-left:8%;
     margin-right: 2%;
 }
 #second-box{
-    background-color: rgb(229, 255, 242);
+    background-color: rgb(237, 255, 246);
 }
 #last-box{
-    background-color: rgb(255, 239, 233);
+    background-color: rgb(255, 241, 236);
     margin-left:2%;
     margin-right: 8%;
 }
@@ -111,10 +112,19 @@ h2{
 }
 
 footer{
+    display: block;
     height:150px;
-    padding-top: 20px;
-    text-align: center;
+   
     color:white;
     background-color:rgb(12, 13, 29);
 }
+
+.footer-txt{
+ margin:auto;
+  width: 50%;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+
 
