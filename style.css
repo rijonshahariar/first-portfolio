@@ -103,10 +103,10 @@ h2{
 /*third section*/
 .sec-3{
     display:flex;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background-image: url(images/shapes/shape-12.png);
     background-repeat: no-repeat;
-    background-position:right ;
+    background-position:right;
 }
 
 /*fourth section*/
@@ -115,7 +115,7 @@ h2{
     margin-bottom: 10px;
     background-image: url(images/shapes/shape-14.png);
     background-repeat: no-repeat;
-    background-position:left ;
+    background-position:left;
 }
 
 /*contact form*/
