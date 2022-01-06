@@ -103,7 +103,7 @@ h2{
 /*third section*/
 .sec-3{
     display:flex;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     background-image: url(images/shapes/shape-12.png);
     background-repeat: no-repeat;
     background-position:right;
