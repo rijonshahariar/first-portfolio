@@ -8,7 +8,7 @@ body{
 
 .all-section{
     display:flex;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .half-width{
@@ -39,6 +39,7 @@ body{
 .text-color{
   color:#21bf73;
 }
+
 .btn{
     background-color: #21bf73;
     padding: 8px 25px;
@@ -50,7 +51,11 @@ body{
     cursor: pointer;
 }
 
-h1{
+#mission{
+    text-align: center;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    width:40%;
+    margin:auto;
     font-size: 50px;
     font-weight: 900;
 }
@@ -61,6 +66,7 @@ h2{
     margin: 0px;
 }
 
+/*2nd section box styles*/
 .box{
     padding: 20px 19px;
     text-align: center;
@@ -81,20 +87,20 @@ h2{
   margin-bottom: 10px; 
 }
 #first-box{
-    background-color: rgb(244, 240, 253);
+    background-color: rgb(243, 239, 253);
     margin-left:8%;
     margin-right: 2%;
 }
 #second-box{
-    background-color: rgb(237, 255, 246);
+    background-color: rgb(226, 255, 241);
 }
 #last-box{
-    background-color: rgb(255, 241, 236);
+    background-color: rgb(255, 239, 233);
     margin-left:2%;
     margin-right: 8%;
 }
 
-
+/*third section*/
 .sec-3{
     display:flex;
     margin-bottom: 10px;
@@ -103,6 +109,7 @@ h2{
     background-position:right ;
 }
 
+/*fourth section*/
 .sec-4{
     display:flex;
     margin-bottom: 10px;
@@ -110,6 +117,46 @@ h2{
     background-repeat: no-repeat;
     background-position:left ;
 }
+
+/*contact form*/
+#contact-header{
+border:2px solid #2e1060;
+color:#2e1060;
+border-radius: 10px;
+text-align: center;
+width:50%;
+margin:auto;
+
+}
+.container {
+    border-radius: 5px;
+    background-color: #eeeeee;
+display:flex;
+color:#2e1060;
+    padding: 20px;
+  }
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0px solid rgb(235, 235, 235);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ .submit-btn{
+        background-color: #2e1060;
+        padding: 10px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        color:white;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+ }
 
 footer{
     display: block;
